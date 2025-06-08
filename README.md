@@ -5,6 +5,17 @@ A powerful React code editor and live preview component that renders React + Tai
 [![npm version](https://badge.fury.io/js/oyren-react-renderer.svg)](https://badge.fury.io/js/oyren-react-renderer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Support This Project
+
+If you find Oyren Prompter useful, consider supporting its development!
+
+<a href="https://buymeacoffee.com/vorashil" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 174px !important;" >
+</a>
+
+Or, use the direct link: [https://buymeacoffee.com/vorashil](https://buymeacoffee.com/vorashil)
+
+
 ## ✨ Features
 
 - 🔥 **Live Code Editor** - Monaco Editor with TypeScript support, syntax highlighting, and intelligent autocomplete
