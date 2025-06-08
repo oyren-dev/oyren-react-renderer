@@ -1,0 +1,65 @@
+{
+  "name": "oyren-react-renderer",
+  "version": "1.0.0",
+  "description": "A powerful React code editor and live preview component that renders React + Tailwind CSS code in the browser with real-time editing capabilities",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build",
+    "demo": "cd examples/simple-demo && npm install && npm run dev",
+    "demo:install": "npm install && npm run build && cd examples/simple-demo && npm install",
+    "demo:dev": "cd examples/simple-demo && npm run dev"
+  },
+  "keywords": [
+    "react",
+    "code-editor",
+    "live-preview",
+    "monaco-editor",
+    "tailwind",
+    "typescript",
+    "jsx",
+    "component"
+  ],
+  "author": "Oyren.dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/oyren-react-renderer.git"
+  },
+  "homepage": "https://oyren.dev/oyren-react-renderer",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "monaco-editor": "^0.49.0",
+    "react-runner": "^1.0.3",
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/prop-types": "^15.7.14",
+    "tsup": "^8.0.0",
+    "typescript": "^5.2.2"
+  }
+} 
