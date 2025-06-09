@@ -1,6 +1,6 @@
 {
   "name": "oyren-react-renderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful React code editor and live preview component that renders React + Tailwind CSS code in the browser with real-time editing capabilities",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

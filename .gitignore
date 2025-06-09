@@ -1,1 +1,6 @@
 .idea
+node_modules
+dist
+examples/simple-demo/.dist
+examples/simple-demo/node_modules
+
